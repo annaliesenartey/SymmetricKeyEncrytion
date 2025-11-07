@@ -1,0 +1,9 @@
+This file is provided for the Symmetric Encryption Lab.
+It contains a few lines of readable English text that can be encrypted and decrypted using AES or DES algorithms.
+
+Students should test how the ciphertext differs in each mode (ECB, CBC, CFB, OFB, and CTR).
+They should also note that reusing the same key and IV (Initialization Vector) across multiple encryptions can lead to security vulnerabilities. (IV is a random or unique value used along with the encryption key when encrypting data in certain modes (CBC, CFB, OFB, CTR) IV ensures that even if the same plaintext and key are used multiple times, the ciphertext will be different)
+Remember: ECB mode reveals patterns when the plaintext has repeating structures, while CBC hides them better.
+
+This experiment demonstrates that encryption must be combined with proper mode selection and key management to ensure confidentiality.
+
